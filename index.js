@@ -84,7 +84,7 @@ const getWeather = () => {
         return;
     }
 
-    const apiKey = '475c2171fe960a18d6bb31b320bec006'
+    const apiKey = ''
 
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`)
     .then(responseSuccess('json'))
